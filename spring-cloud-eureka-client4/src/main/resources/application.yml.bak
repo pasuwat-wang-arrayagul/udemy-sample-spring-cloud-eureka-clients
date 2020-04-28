@@ -1,0 +1,7 @@
+#words: boat,book,vote,seat,backpack,partition,groundhog
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+
+spring:
+  profiles: noun
